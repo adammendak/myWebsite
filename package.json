@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/adammendak/myWebsite/issues"
   },
-  "homepage": "https://github.com/adammendak/myWebsite#readme"
+  "homepage": "https://github.com/adammendak/myWebsite#readme",
+  "dependencies": {
+    "nodemon": "^1.15.1"
+  }
 }
