@@ -1,1 +1,1 @@
-# myWebsite
+this is code for my website www.adammendak.pl
