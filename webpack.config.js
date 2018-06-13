@@ -1,11 +1,10 @@
 var path = require("path");
 module.exports = {
-    entry:["whatwg-fetch", "./application/index.jsx"]
+    entry:["whatwg-fetch", "./react/index.jsx"]
     ,
-    output: { filename: "out.js", path: path.resolve(__dirname, "dist") },
+    output: { filename: "out.js", path: path.resolve(__dirname, "public") },
     devServer: {
         inline: true,
-        contentBase: './',
         port: 3001
         },
     mode: "development", 
