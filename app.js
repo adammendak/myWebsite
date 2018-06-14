@@ -20,6 +20,6 @@ app.use(function (err, req, res, next) {
 
 const port = process.env.port || 3000;
 
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log(`port listening on port ${port}`);
 });

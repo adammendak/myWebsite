@@ -3,12 +3,8 @@ module.exports = {
     entry:["whatwg-fetch", "./react/index.jsx"]
     ,
     output: { filename: "out.js", path: path.resolve(__dirname, "public") },
-    devServer: {
-        inline: true,
-        port: 3001
-        },
-    mode: "development", 
-    watch: true,
+    mode: "production", 
+    watch: false,
     module: {
     rules: [{
         test: /\.jsx$/,
