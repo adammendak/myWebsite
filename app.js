@@ -18,8 +18,8 @@ app.use(function (err, req, res, next) {
     res.json({"error" : err.name + ": " + err.message});
 });
 
-const port = process.env.$PORT || 3000;
-
-app.listen(port, "0.0.0.0", () => {
-    console.log(`port listening on port ${port}`);
+// const port = process.env.PORT || 3000;
+//for heroku
+app.listen(PORT, "0.0.0.0", () => {
+    console.log(`port listening on port ${PORT}`);
     });
