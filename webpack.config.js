@@ -4,6 +4,7 @@ module.exports = {
     ,
     output: { filename: "out.js", path: path.resolve(__dirname, "public") },
     devServer: {
+        contentBase: path.join(__dirname, 'public'),
         inline: true,
         port: 3001
         },
