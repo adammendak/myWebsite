@@ -7,8 +7,8 @@ module.exports = {
         inline: true,
         port: 3001
         },
-    mode: "development", 
-    watch: true,
+    mode: "development",
+    watch: false,
     module: {
     rules: [{
         test: /\.jsx$/,
