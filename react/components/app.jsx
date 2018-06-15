@@ -1,15 +1,13 @@
 import React from 'react';
 import {
-    HashRouter,
     BrowserRouter,
     Route,
     Switch,
-    NavLink
 } from 'react-router-dom';
 import HomePage from "./home/homePage.jsx";
 import AboutPage from "./about/aboutPage.jsx";
 import ProjectsPage from "./projects/projectsPage.jsx";
-import {Button, Container, Jumbotron, Row} from 'reactstrap';
+import {Button, Container, Jumbotron} from 'reactstrap';
 import Navigation from "./navigation.jsx";
 import NotFound from "./errorPage.jsx";
 
