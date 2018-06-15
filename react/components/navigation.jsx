@@ -10,7 +10,7 @@ class Navigation extends React.Component {
     render() {
         return (
             <div>
-                <Navbar color="light" light>
+                <Navbar color="light" className={"mb-2"} light>
                     <NavbarBrand href="/">Adam Mendak</NavbarBrand>
                     <Nav className="mr-auto">
                         <NavItem className="mr-2">

@@ -27,7 +27,7 @@ class App extends React.Component {
                         </Jumbotron>
                     </div>
                 </BrowserRouter>
-                <Button color="danger">test bootstrap button</Button>  -- to jest bardzo wazna rzecz wbrew pozorom
+
             </Container>
         )
     }
