@@ -3,16 +3,9 @@ import {Button} from 'reactstrap';
 
 class MyPargraph extends React.Component {
 
-    fetchMyCv = () => {
-        console.log("dupa");
-        fetch('http://localhost:3000/cv')
-            .then(console.log("pobrane z reacta"));
-
-    };
-
     render() {
         return (
-            <div id={"aboutMeParagraph"} className={"text-center", "ml-5"}>
+            <div id={"aboutMeParagraph"} className={"text-center", "ml-2"}>
                 <h1 className={"mb-3"}>Witaj na mojej stronie!</h1>
                 <p>jak widac strona jest jeszcze w powijakach i bede tutaj wrzucal swoje projekty i informacje o
                     mnie</p>
@@ -20,7 +13,8 @@ class MyPargraph extends React.Component {
                     href="https://github.com/adammendak/myWebsite">tutaj</a></p>
                 <p>strone tez wrzucilem i bede rozwijal rownoczesnie w chmurze na Heroku <a
                     href="https://adammendak.herokuapp.com/">tutaj</a></p>
-                <Button color="info" className={"mt-2"} onClick={e => this.fetchMyCv(e)}>pobierz moje cv </Button>
+                <a href="http://www.adammendak.pl/cv" download={"CV_Adam_Mendak.pdf"}><Button color="info" className={"mt-2"}>
+                    pobierz moje cv </Button></a>
             </div>
         )
     }
