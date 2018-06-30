@@ -12,6 +12,7 @@ class ProjectsPage extends React.Component {
                     </li>
                     <li>
                         <a href="https://productmanagement-adammendak.herokuapp.com" target={"_new"}>Sklep internetowy</a>
+                        <p>in progress</p>
                         <p>na razie repozytorium produktow, moze sklep internetowy z tego bedzie, napisany w spring boocie i angularze</p>
                         <p>strona jest postawiona na heroku, po otwarciu linka trzeba poczekac kolo 30 sekund as aplikacje wstanie</p>
                     </li>
