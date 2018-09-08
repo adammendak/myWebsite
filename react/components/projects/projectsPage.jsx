@@ -11,6 +11,7 @@ class ProjectsPage extends React.Component {
                         <p>front w reakcie strzelajacy do serwera autentykacyjnego napisanego w Javie. Przyklad autentykacji
                             za pomoca Json Web Tockenow.
                         </p>
+                    </li>
                     <li>
                         <a href="http://www.memo.adammendak.pl" target={"_new"}>Todo Serwis w nodzie napisany</a>
                         <p><a href="https://github.com/adammendak/MEAN_MemoService" target={"_new"}>link do repozytorium</a></p>
