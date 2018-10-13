@@ -7,6 +7,12 @@ class ProjectsPage extends React.Component {
                 <h1>strona o projektach</h1>
                 <ul>
                     <li>
+                        <a href="http://www.crawler.adammendak.pl" target={"_new"}>scraper w pythonie</a>
+                    </li>
+                    <p>
+                        narzedzie do wyciagania tekstu ze stron i obrazkow, napisane w pythonie flask restowy i klient w angularze
+                    </p>
+                    <li>
                         <a href="http://www.login.adammendak.pl"target={"_new"}>Autoryzacja JWT</a>
                         <p>front w reakcie strzelajacy do serwera autentykacyjnego napisanego w Javie. Przyklad autentykacji
                             za pomoca Json Web Tockenow.
